@@ -27,7 +27,8 @@ namespace UnityExplorer.UI
             Options,
             ConsoleLog,
             AutoCompleter,
-            MouseInspector
+            MouseInspector,
+            SMA
         }
 
         public enum VerticalAnchor
@@ -105,6 +106,7 @@ namespace UnityExplorer.UI
             UIPanels.Add(Panels.AutoCompleter, new AutoCompleteModal());
             UIPanels.Add(Panels.ObjectExplorer, new ObjectExplorerPanel());
             UIPanels.Add(Panels.Inspector, new InspectorPanel());
+            UIPanels.Add(Panels.SMA, new SMAPanel());
             UIPanels.Add(Panels.CSConsole, new CSConsolePanel());
             UIPanels.Add(Panels.ConsoleLog, new LogPanel());
             UIPanels.Add(Panels.Options, new OptionsPanel());

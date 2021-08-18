@@ -95,6 +95,9 @@
   </PropertyGroup>
   <!-- Global refs, Mono and Il2Cpp -->
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.1\lib\net35\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -265,7 +268,13 @@
     <Compile Include="CacheObject\IValues\InteractiveValue.cs" />
     <Compile Include="Inspectors\ReflectionInspector.cs" />
     <Compile Include="CacheObject\IValues\InteractiveValueStruct.cs" />
+    <Compile Include="SMA\FlyCamera.cs" />
+    <Compile Include="SMA\SMAList.cs" />
+    <Compile Include="SMA\SMACell.cs" />
+    <Compile Include="SMA\SMAListItem.cs" />
+    <Compile Include="SMA\SMATranslations.cs" />
     <Compile Include="UI\Models\InputFieldRef.cs" />
+    <Compile Include="UI\Panels\SMAPanel.cs" />
     <Compile Include="UI\Pool.cs" />
     <Compile Include="UI\Panels\LogPanel.cs" />
     <Compile Include="UI\Panels\CSConsolePanel.cs" />

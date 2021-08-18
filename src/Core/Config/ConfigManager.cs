@@ -34,6 +34,7 @@ namespace UnityExplorer.Core.Config
 
         public static ConfigElement<string> ObjectExplorerData;
         public static ConfigElement<string> InspectorData;
+        public static ConfigElement<string> SMAData;
         public static ConfigElement<string> CSConsoleData;
         public static ConfigElement<string> OptionsPanelData;
         public static ConfigElement<string> ConsoleLogData;
@@ -123,6 +124,7 @@ namespace UnityExplorer.Core.Config
 
             ObjectExplorerData = new ConfigElement<string>("ObjectExplorer", "", "", true);
             InspectorData = new ConfigElement<string>("Inspector", "", "", true);
+            SMAData = new ConfigElement<string>("SMA", "", "", true);
             CSConsoleData = new ConfigElement<string>("CSConsole", "", "", true);
             OptionsPanelData = new ConfigElement<string>("OptionsPanel", "", "", true);
             ConsoleLogData = new ConfigElement<string>("ConsoleLog", "", "", true);
